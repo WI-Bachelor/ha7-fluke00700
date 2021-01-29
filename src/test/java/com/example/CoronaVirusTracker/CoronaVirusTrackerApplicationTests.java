@@ -9,6 +9,7 @@ class CoronaVirusTrackerApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
