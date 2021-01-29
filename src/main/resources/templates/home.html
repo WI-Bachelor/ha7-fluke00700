@@ -25,12 +25,12 @@
 
 </div>
 
-    <table class="table table-striped table-hover table-bordered border-danger">
+    <table>
         <tr>
-            <th>Land</th>
-            <th>Bundesstaat</th>
-            <th>Anzahl der gesamten Fälle:</th>
-            <th>Neuinfektionen in den letzten 24 Stunden:</th>
+            <th>Country</th>
+            <th>State</th>
+            <th>Total Cases:</th>
+            <th>New Infections :</th>
         </tr>
         <tr th:each="locationStat : ${locationStats}">
             <td th:text="${locationStat.country}"></td>
