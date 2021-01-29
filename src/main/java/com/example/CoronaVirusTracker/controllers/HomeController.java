@@ -1,6 +1,6 @@
 package com.example.CoronaVirusTracker.controllers;
 
-import com.example.CoronaVirusTracker.Services.CoronaVirusDataService;
+import com.example.CoronaVirusTracker.services.CoronaVirusDataService;
 import com.example.CoronaVirusTracker.models.LocationStats;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

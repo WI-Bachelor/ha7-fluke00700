@@ -1,4 +1,4 @@
-package com.example.CoronaVirusTracker.Services;
+package com.example.CoronaVirusTracker.services;
 
 import com.example.CoronaVirusTracker.models.LocationStats;
 import org.apache.commons.csv.CSVFormat;

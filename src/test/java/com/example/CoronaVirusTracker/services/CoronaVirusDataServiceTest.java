@@ -1,4 +1,4 @@
-package com.example.CoronaVirusTracker.Services;
+package com.example.CoronaVirusTracker.services;
 
 import com.example.CoronaVirusTracker.models.LocationStats;
 import org.junit.jupiter.api.DisplayName;
@@ -20,7 +20,6 @@ public class CoronaVirusDataServiceTest {
 
         //kein guter Test//
         assertEquals(stats.size(), 273);
-
         assertEquals(stats.get(0).getCountry(), "Afghanistan");
     }
 
