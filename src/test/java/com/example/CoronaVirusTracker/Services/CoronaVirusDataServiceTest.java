@@ -13,12 +13,14 @@ public class CoronaVirusDataServiceTest {
 
     @Test
     @DisplayName("fetch data from Covid-API")
-    void canFetchData() throws IOException, InterruptedException {
+    void testFetchData() throws IOException, InterruptedException {
         CoronaVirusDataService dataService = new CoronaVirusDataService();
         dataService.fetchVirusData();
         List<LocationStats> stats = dataService.getAllStats();
 
+        //kein guter Test//
         assertEquals(stats.size(), 273);
+
         assertEquals(stats.get(0).getCountry(), "Afghanistan");
     }
 
